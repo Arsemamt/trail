@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.634);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+}
+
+html {
+  background: linear-gradient(rgb(100, 0, 0), #000000);
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: right;
+  padding: 40px;
+  box-shadow: 0 0 50px rgb(0, 0, 0);
+  width: 1455px;
+  position: fixed;
+}
+
+.nav {
+  color: rgba(255, 255, 255, 0.679);
+  margin: 10px;
+  padding: 12px 11px;
+  background-color: rgba(0, 0, 0, 0.578);
+  border-radius: 7px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+
+.nav:hover {
+  background-color: rgb(60, 13, 2);
+  color: rgb(0, 0, 0);
+  transition: 0.3s ease-in-out;
+}
+
+.logo {
+  margin: 0 800px 0 0;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 62px;
+  font-family: cursive;
+  margin: 315px 20px 200px 100px;
+  width: 100%;
+}
+
+.name {
+  font-size: 53px;
+  font-family: cursive;
+  color: black;
+}
+
+.a {
+  display: flex;
+}
+
+.p1 {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+  margin: 50px;
+  padding: 40px;
+  font-weight: 600;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.649);
+}
+
+.p2 {
+  background-color: rgba(54, 10, 10, 0.738);
+  border-radius: 20px;
+  margin: 40px;
+  padding: 30px;
+  font-size: 19px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.649);
+  width: 40%;
+}
+
+#bio {
+  display: flex;
+  margin: 20px;
+}
+
+.img1 {
+  border-radius: 50%;
+  width: 420px;
+  height: 375px;
+  margin: 220px 200px 0 0;
+}
+
+.img2 {
+  border-radius: 20px;
+  width: 500px;
+  height: 300px;
+}
+
+.about-me {
+  color: rgb(0, 0, 0);
+  font-family: cursive;
+  font-size: 40px;
+}
+
+#contact-me {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: cursive;
+  font-size: 45px;
+}
+
+.contact-page {
+  background-color: rgba(54, 5, 5, 0.368);
+  box-shadow: 0 0 30px rgb(76, 15, 15);
+  border-radius: 20px;
+  padding: 20px 20px 30px 40px;
+  margin: 10% 13% 10% 13%;
+  font-size: 40px;
+}
+
+#footer {
+  text-align: center;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.578);
+  box-shadow: 0 0 30px rgb(71, 0, 0);
+}
+
+button {
+  background: rgba(61, 1, 1, 0.471);
+  color: rgba(255, 255, 255, 0.768);
+  border-radius: 20px;
+  margin: 10px 10px 20px 40%;
+  padding: 12px 17px;
+  transition: 0.2s ease-in-out;
+  font-weight: 700;
+  font-size: 30px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.419);
+  border: 0;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.162);
+  color: rgb(255, 255, 255);
+  transition: 0.2s ease-in-out;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.397);
+}
+
+.button {
+  text-decoration: none;
+}
